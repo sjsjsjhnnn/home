@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div>
+            <h1>Анкета учасника курсів it club</h1>
+
+            <div>
+                <p><b>Учасник</b> - це людина, яка отримує консультації з питань інформатизації.</p>
+                <p>Консультації з питань інформатизації (далі Курси), можуть надаватися дітям за згодою батьків (одного чи більше)</p>
+                <p>Послуги консультацій з питань інформатизації надає фізична особа підприємець Мельников Павло Русланович ЄДРПОУ 3484204630.</p>
+                <p>У ході надання послуг буде вестись <b>фото</b> та <b>відео</b> фіксація. Фото та/або відео можуть бути використані у соціальних 
+                    мережах та на офіційному сайті <a href="https://itclube.in.ua/ ">https://itclube.in.ua/ </a> <b>без узгодження</b>. За проханням фото або відео будуть видалені з 
+                    соціальної мережі та/або з офіційного сайта протягом доби з моменту прохання. Усі світлини та відео ФОП Мельников Павло Русланович.</p>
+                <p>Персональні дані надані в анкеті не будуть передаватися третім особам (номер телефону, email, дата народження)</p>
+            </div>
+    
+            <div>
+                <p><b>Ім'я та прізвище</b>(учасника курсів)</p>
+                <input type="text" id="name">
+            </div>
+    
+            <div>
+                <p><b>Номер телефону</b>(учасника курсів)</p>
+                <input type="text"" id="number">
+            </div>
+    
+            <div>
+                <p><b>Дата народження</b>(учасника курсів)</p>
+                <input type="text" id="data">
+            </div>
+    
+            <div>
+                <p><b>Email</b>(учасника курсів)</p>
+                <input type="text" id="email">
+            </div>
+    
+            <div>
+                <p><b>Якою мовою проводити курси?</b>(позначати у квадратику)</p>
+                <p><input type="radio" id="contactChoice1" name="contact" value="Ukrain"> 
+                    <label for="contactChoice1">Українська</label></p>
+                <p><input type="radio" id="contactChoice2" name="contact" value="Russia">
+                    <label for="contactChoice2">Російська</label></p>
+                <p><input type="radio" id="contactChoice3"name="contact" value="UkrainAndRussia">
+                    <label for="contactChoice3">Укранською або російською (можна будь якою)</label>
+                </p>
+            </div>
+        </div>
+        
+        <div>
+            <h2>Додаткові питання</h2>
+
+            <p>Якщо учаснику курсів менше 18 років (заповнюється батьками дитини, або виконуючими їх обов'язки)</p>
+
+            <div>
+                <p><b>Ім'я та прізвище</b>(одного чи декількох батьків)</p>
+                <input type="text" id="NameParent">
+            </div>
+            <div>
+                <p><b>Номер телефонуEmail</b>(одного чи декількох батьків)</p>
+                <input type="text" id = "NumberParent">
+            </div>
+            <div>
+                <p><b>Email</b>(одного чи декількох батьків)</p>
+                <input type="text" id="EmailParent">
+            </div>
+
+            <div>
+                <p><b>Чи можна відпускати дитину одну після урокі?</b></p>
+                <p><input type="radio" id="contactChoice4" name="contact2" value="Yes"> 
+                    <label for="contactChoice1">Так</label></p>
+                <p><input type="radio" id="contactChoice5" name="contact2" value="No">
+                    <label for="contactChoice2">Ні</label></p>
+            </div>
+
+            <div>
+                <p><b>Чи є у дитини якісь захворювання, про які треба знати?</b> Якщо є, напишіть інструкції, що потрібно робити</p>
+                <input type="text" id="Zahvor">
+            </div>
+
+            <div>
+                <p><b>Додаткова інформація</b></p>
+                <p>Якщо у Вас зміниться номер телефону, надайте будь ласка актуальний.</p>
+                <p>Завчасно попереджайте про відсутність дитини на курсах.</p>
+                <p>Якщо у групі буде хоча б один учасник, котрий хоче щоб курси проводили на українській мові, то курси 
+                будуть проводитися на українській мові для всіх учасників групи.</p>
+                <p>Заповнивши цю анкету, Ви даєте згоду на обробку Ваших персональних даних та згоду, що ви ознайомлені 
+                з усіма даними цієї анкети.</p>
+                <p>З детальною інформацією про курси, внутрішні правила, контактні дані та інше, можна ознайомитись на сайті </p>
+            </div>
+
+            <div class="divB">
+                <b class="b1">Дата</b>
+                <b class="b2">Підпис</b>
+            </div>
+        </div>
+
+        <div class="btn">
+            <button id="button">Зберегти</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
